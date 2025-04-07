@@ -5,3 +5,4 @@ class computer:#class
 #object creation
 comp1  = computer() #constructer
 computer.config(comp1) # passing the object in bracket since they have different behaviour they have their own behaviour data 
+comp1.config() #comp1 belongs to computer   mostly used
