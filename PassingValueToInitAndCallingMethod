@@ -1,0 +1,20 @@
+class computer:#class
+    
+    def __init__(self,cpu,ram): #self is the object
+        self.cpu = cpu
+        self.ram = ram
+    
+    def config(self): #method
+        print("config is ",self.cpu,self.ram)
+    
+
+#object creation
+comp1  = computer('i5','16') #constructer #calls init
+comp2  = computer('ryzen 5','8') #constructer #calls init
+
+comp1.config() #comp1 belongs to 
+comp2.config() #comp2 belongs to 
+
+#output 
+# config is  i5 16
+# config is  ryzen 5 8
