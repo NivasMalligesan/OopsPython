@@ -9,7 +9,7 @@ class A:
     def feature2(self):
         print("Feature 2 Working")
 
-class B(A): #inheritance
+class B: #inheritance
     def __init__(self):
         print("Init in B is working")
     def feature1(self) :
